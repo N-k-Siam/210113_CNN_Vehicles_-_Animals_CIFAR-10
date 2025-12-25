@@ -59,10 +59,13 @@ The notebook is fully automated and can be executed using **Run All** in Google 
 ### Training Curves
 
 #### Loss vs Epoch
-<img src="PASTE_LOSS_IMAGE_URL_HERE" width="700"/>
+<img width="567" height="455" alt="download" src="https://github.com/user-attachments/assets/0d771ff0-2b12-40fd-a2f2-d563c12408d0" />
+
+
 
 #### Accuracy vs Epoch
-<img src="PASTE_ACCURACY_IMAGE_URL_HERE" width="700"/>
+<img width="576" height="455" alt="download" src="https://github.com/user-attachments/assets/af57ef38-5702-4c08-a52a-4ed6eac3a9c2" />
+
 
 ### Observations
 - Training loss decreases steadily
@@ -76,8 +79,8 @@ The notebook is fully automated and can be executed using **Run All** in Google 
 ## Evaluation on CIFAR-10 Test Set
 
 ### Confusion Matrix
-<!-- Upload confusion matrix image here -->
-<img width="650" alt="Confusion Matrix" src="PASTE_CONFUSION_MATRIX_IMAGE_URL_HERE"/>
+<img width="853" height="766" alt="download" src="https://github.com/user-attachments/assets/cbe68edd-c2d2-494b-bac5-3648d527b978" />
+
 
 **Key Observations**
 - Strong performance on vehicle classes
@@ -90,7 +93,8 @@ The notebook is fully automated and can be executed using **Run All** in Google 
 
 ### Misclassified Test Images
 <!-- Upload misclassified images here -->
-<img width="800" alt="Misclassified Images" src="PASTE_MISCLASSIFIED_IMAGE_URL_HERE"/>
+<img width="970" height="397" alt="download" src="https://github.com/user-attachments/assets/89c26d57-aa72-47f7-83ab-14f879526627" />
+
 
 These examples highlight ambiguity in low-resolution images and class similarity.
 
@@ -98,8 +102,9 @@ These examples highlight ambiguity in low-resolution images and class similarity
 
 ## Real-World Smartphone Image Predictions
 
-<!-- Upload custom image predictions grid here -->
-<img width="900" alt="Custom Image Predictions" src="PASTE_CUSTOM_PREDICTIONS_IMAGE_URL_HERE"/>
+
+<img width="1189" height="707" alt="download" src="https://github.com/user-attachments/assets/cf947b9e-6226-4ec8-b9fb-79c07053b12f" />
+
 
 **Observations**
 - Vehicle images are classified with high confidence
