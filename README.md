@@ -55,6 +55,29 @@ The notebook is fully automated and can be executed using **Run All** in Google 
 
 ## Training & Validation Results
 
+### Training Log (Per Epoch)
+Epoch 1/10 | Train loss=1.4306, acc=0.4792 | Val loss=1.1085, acc=0.5956
+Epoch 2/10 | Train loss=1.0077, acc=0.6428 | Val loss=0.8827, acc=0.6870
+Epoch 3/10 | Train loss=0.8386, acc=0.7045 | Val loss=0.8156, acc=0.7148
+Epoch 4/10 | Train loss=0.7162, acc=0.7489 | Val loss=0.7539, acc=0.7350
+Epoch 5/10 | Train loss=0.6225, acc=0.7805 | Val loss=0.7380, acc=0.7418
+Epoch 6/10 | Train loss=0.5576, acc=0.8042 | Val loss=0.7646, acc=0.7430
+Epoch 7/10 | Train loss=0.4828, acc=0.8289 | Val loss=0.7666, acc=0.7486
+Epoch 8/10 | Train loss=0.4248, acc=0.8466 | Val loss=0.7717, acc=0.7542
+Epoch 9/10 | Train loss=0.3719, acc=0.8661 | Val loss=0.8016, acc=0.7432
+Epoch 10/10 | Train loss=0.3329, acc=0.8799 | Val loss=0.7982, acc=0.7548
+
+
+### Observations
+- Training loss decreases steadily across epochs
+- Training accuracy increases consistently, reaching ~88%
+- Validation accuracy stabilizes around **75–76%**
+- Validation loss increases in later epochs, indicating overfitting
+- Best generalization performance is observed around Epoch 7–8
+
+---
+
+
 ### Training Curves
 
 #### Loss vs Epoch
@@ -90,22 +113,10 @@ The notebook is fully automated and can be executed using **Run All** in Google 
 - Expected due to CIFAR-10’s low resolution (**32×32**)
 
 ---
-
-## Visual Error Analysis
-
-### Misclassified Test Images
-<!-- Upload misclassified images here -->
-<img width="970" height="397" alt="download" src="https://github.com/user-attachments/assets/39463d54-ce08-4aaa-b0b8-440910487e27" />
-
-
-
-These examples highlight ambiguity in low-resolution images and class similarity.
-
----
-
 ## Real-World Smartphone Image Predictions
+<img width="950" height="665" alt="download" src="https://github.com/user-attachments/assets/c3f0448c-194f-496b-afb6-470a513408e7" />
 
-<img width="1189" height="755" alt="download" src="https://github.com/user-attachments/assets/bb754012-8ada-4e7f-ba18-b477f1da8c64" />
+
 
 
 
@@ -114,6 +125,18 @@ These examples highlight ambiguity in low-resolution images and class similarity
 - Vehicle images are classified with high confidence
 - Animal classes occasionally show confusion
 - Confidence varies due to domain shift between CIFAR-10 and real-world images
+
+---
+## Visual Error Analysis
+
+### Misclassified Test Images
+<!-- Upload misclassified images here -->
+
+<img width="970" height="397" alt="download" src="https://github.com/user-attachments/assets/19dd1337-e107-4797-b8ac-f93e0e3d32ba" />
+
+
+
+These examples highlight ambiguity in low-resolution images and class similarity.
 
 ---
 
