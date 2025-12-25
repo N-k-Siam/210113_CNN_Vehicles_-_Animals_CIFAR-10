@@ -98,11 +98,13 @@ These examples highlight ambiguity in low-resolution images and class similarity
 
 ## How to Run (Google Colab)
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/N-k-Siam/210113_CNN_Vehicles_-_Animals_CIFAR-10.git
-2. Open 210113.ipynb in Google Colab
-3. Select Runtime → Run all
+1. Open the notebook in Google Colab:  
+   👉 [Click here to open `210113.ipynb` in Colab](https://colab.research.google.com/drive/1H0BBNrzxFN-SPrRPr2kSWs63XaEaWGUg?usp=sharing)
+
+2. Select **Runtime → Run all**
+
+All training, evaluation, and visualizations will be executed automatically.  
+No manual cloning or file uploads are required.
 
 
 **Author**<br>
