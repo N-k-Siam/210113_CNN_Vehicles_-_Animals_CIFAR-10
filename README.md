@@ -107,7 +107,7 @@ Epoch 10/10 | Train loss=0.3329, acc=0.8799 | Val loss=0.7982, acc=0.7548<br>
 
 
 
-**Key Observations**
+### Key Observations
 - Strong performance on vehicle classes
 - Confusion among visually similar animal classes
 - Expected due to CIFAR-10’s low resolution (**32×32**)
@@ -121,7 +121,7 @@ Epoch 10/10 | Train loss=0.3329, acc=0.8799 | Val loss=0.7982, acc=0.7548<br>
 
 
 
-**Observations**
+### Observations
 - Vehicle images are classified with high confidence
 - Animal classes occasionally show confusion
 - Confidence varies due to domain shift between CIFAR-10 and real-world images
