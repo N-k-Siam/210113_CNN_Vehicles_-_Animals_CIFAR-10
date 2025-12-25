@@ -26,11 +26,11 @@ The notebook is fully automated and can be executed using **Run All** in Google 
 
 <!-- Upload project structure image here -->
 210113_CNN_Vehicles_-_Animals_CIFAR-10/<br>
-├── dataset/ # 10 custom real-world images<br>
+├── dataset/ <br>
 ├── model/<br>
 │ ├── .gitkeep<br>
-│ └── 210113.pth # Trained CNN model weights<br>
-├── 210113.ipynb # Main Google Colab notebook<br>
+│ └── 210113.pth <br>
+├── 210113.ipynb <br>
 └── README.md<br>
 
 ---
