@@ -56,14 +56,20 @@ The notebook is fully automated and can be executed using **Run All** in Google 
 
 ## Training & Validation Results
 
-<!-- Upload training/validation curves image here -->
-<img width="800" alt="Training Curves" src="PASTE_TRAINING_CURVES_IMAGE_URL_HERE"/>
+### Training Curves
 
-**Observations**
+#### Loss vs Epoch
+<img src="PASTE_LOSS_IMAGE_URL_HERE" width="700"/>
+
+#### Accuracy vs Epoch
+<img src="PASTE_ACCURACY_IMAGE_URL_HERE" width="700"/>
+
+### Observations
 - Training loss decreases steadily
 - Training accuracy improves consistently
 - Validation accuracy stabilizes around **75–76%**
 - Overfitting begins after later epochs (expected behavior)
+
 
 ---
 
