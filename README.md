@@ -13,8 +13,7 @@ The notebook is fully automated and can be executed using **Run All** in Google 
 
 ### Standard Dataset
 - **CIFAR-10** (10 classes):
-  - airplane, automobile, bird, cat, deer  
-  - dog, frog, horse, ship, truck
+  - airplane, automobile, bird, cat, deer, dog, frog, horse, ship, truck
 
 ### Custom Dataset (Real-world Images)
 - Real-world images captured using a smartphone
