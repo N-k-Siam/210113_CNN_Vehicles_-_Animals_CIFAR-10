@@ -99,7 +99,7 @@ These examples highlight ambiguity in low-resolution images and class similarity
 ## How to Run (Google Colab)
 
 1. Open the notebook in Google Colab:  
-   👉 [Click here to open `210113.ipynb` in Colab](https://colab.research.google.com/drive/1H0BBNrzxFN-SPrRPr2kSWs63XaEaWGUg?usp=sharing)
+   Click here to open [`210113.ipynb`](https://colab.research.google.com/drive/1H0BBNrzxFN-SPrRPr2kSWs63XaEaWGUg?usp=sharing) in Colab
 
 2. Select **Runtime → Run all**
 
