@@ -105,8 +105,6 @@ These examples highlight ambiguity in low-resolution images and class similarity
 3. Select Runtime → Run all
 
 
-**Author**
-
-**Nafiullah Khan Siam**
-
+**Author**<br>
+**Nafiullah Khan Siam**<br>
 **Student ID: 210113**
