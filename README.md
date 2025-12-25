@@ -56,16 +56,16 @@ The notebook is fully automated and can be executed using **Run All** in Google 
 ## Training & Validation Results
 
 ### Training Log (Per Epoch)
-Epoch 1/10 | Train loss=1.4306, acc=0.4792 | Val loss=1.1085, acc=0.5956
-Epoch 2/10 | Train loss=1.0077, acc=0.6428 | Val loss=0.8827, acc=0.6870
-Epoch 3/10 | Train loss=0.8386, acc=0.7045 | Val loss=0.8156, acc=0.7148
-Epoch 4/10 | Train loss=0.7162, acc=0.7489 | Val loss=0.7539, acc=0.7350
-Epoch 5/10 | Train loss=0.6225, acc=0.7805 | Val loss=0.7380, acc=0.7418
-Epoch 6/10 | Train loss=0.5576, acc=0.8042 | Val loss=0.7646, acc=0.7430
-Epoch 7/10 | Train loss=0.4828, acc=0.8289 | Val loss=0.7666, acc=0.7486
-Epoch 8/10 | Train loss=0.4248, acc=0.8466 | Val loss=0.7717, acc=0.7542
-Epoch 9/10 | Train loss=0.3719, acc=0.8661 | Val loss=0.8016, acc=0.7432
-Epoch 10/10 | Train loss=0.3329, acc=0.8799 | Val loss=0.7982, acc=0.7548
+Epoch 1/10 | Train loss=1.4306, acc=0.4792 | Val loss=1.1085, acc=0.5956<br>
+Epoch 2/10 | Train loss=1.0077, acc=0.6428 | Val loss=0.8827, acc=0.6870<br>
+Epoch 3/10 | Train loss=0.8386, acc=0.7045 | Val loss=0.8156, acc=0.7148<br>
+Epoch 4/10 | Train loss=0.7162, acc=0.7489 | Val loss=0.7539, acc=0.7350<br>
+Epoch 5/10 | Train loss=0.6225, acc=0.7805 | Val loss=0.7380, acc=0.7418<br>
+Epoch 6/10 | Train loss=0.5576, acc=0.8042 | Val loss=0.7646, acc=0.7430<br>
+Epoch 7/10 | Train loss=0.4828, acc=0.8289 | Val loss=0.7666, acc=0.7486<br>
+Epoch 8/10 | Train loss=0.4248, acc=0.8466 | Val loss=0.7717, acc=0.7542<br>
+Epoch 9/10 | Train loss=0.3719, acc=0.8661 | Val loss=0.8016, acc=0.7432<br>
+Epoch 10/10 | Train loss=0.3329, acc=0.8799 | Val loss=0.7982, acc=0.7548<br>
 
 
 ### Observations
