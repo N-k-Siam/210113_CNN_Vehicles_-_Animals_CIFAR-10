@@ -25,7 +25,13 @@ The notebook is fully automated and can be executed using **Run All** in Google 
 ## Project Structure
 
 <!-- Upload project structure image here -->
-<img width="550" alt="Project Structure" src="PASTE_PROJECT_STRUCTURE_IMAGE_URL_HERE"/>
+210113_CNN_Vehicles_-_Animals_CIFAR-10/
+├── dataset/ # 10 custom real-world images
+├── model/
+│ ├── .gitkeep
+│ └── 210113.pth # Trained CNN model weights
+├── 210113.ipynb # Main Google Colab notebook
+└── README.md
 
 ---
 
