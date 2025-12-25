@@ -103,3 +103,8 @@ These examples highlight ambiguity in low-resolution images and class similarity
    git clone https://github.com/N-k-Siam/210113_CNN_Vehicles_-_Animals_CIFAR-10.git
 2. Open 210113.ipynb in Google Colab
 3. Select Runtime → Run all
+
+
+**Author**
+**Nafiullah Khan Siam**
+**Student ID: 210113**
