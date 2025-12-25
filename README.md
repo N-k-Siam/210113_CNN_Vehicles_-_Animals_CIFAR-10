@@ -28,7 +28,6 @@ The notebook is fully automated and can be executed using **Run All** in Google 
 210113_CNN_Vehicles_-_Animals_CIFAR-10/<br>
 ├── dataset/ <br>
 ├── model/<br>
-│ ├── .gitkeep<br>
 │ └── 210113.pth <br>
 ├── 210113.ipynb <br>
 └── README.md<br>
