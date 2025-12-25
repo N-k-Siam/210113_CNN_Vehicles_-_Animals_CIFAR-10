@@ -58,12 +58,14 @@ The notebook is fully automated and can be executed using **Run All** in Google 
 ### Training Curves
 
 #### Loss vs Epoch
-<img width="567" height="455" alt="download" src="https://github.com/user-attachments/assets/0d771ff0-2b12-40fd-a2f2-d563c12408d0" />
+<img width="567" height="455" alt="download" src="https://github.com/user-attachments/assets/ec1bb977-5139-4471-ac7b-abf41897ed5b" />
+
 
 
 
 #### Accuracy vs Epoch
-<img width="576" height="455" alt="download" src="https://github.com/user-attachments/assets/af57ef38-5702-4c08-a52a-4ed6eac3a9c2" />
+<img width="576" height="455" alt="download" src="https://github.com/user-attachments/assets/faf9d9be-4f5d-4689-9bed-927a3fd6b817" />
+
 
 
 ### Observations
@@ -78,7 +80,8 @@ The notebook is fully automated and can be executed using **Run All** in Google 
 ## Evaluation on CIFAR-10 Test Set
 
 ### Confusion Matrix
-<img width="853" height="766" alt="download" src="https://github.com/user-attachments/assets/cbe68edd-c2d2-494b-bac5-3648d527b978" />
+<img width="853" height="766" alt="download" src="https://github.com/user-attachments/assets/4086501d-accd-4c7f-ab71-9d5c13681613" />
+
 
 
 **Key Observations**
@@ -92,7 +95,8 @@ The notebook is fully automated and can be executed using **Run All** in Google 
 
 ### Misclassified Test Images
 <!-- Upload misclassified images here -->
-<img width="970" height="397" alt="download" src="https://github.com/user-attachments/assets/89c26d57-aa72-47f7-83ab-14f879526627" />
+<img width="970" height="397" alt="download" src="https://github.com/user-attachments/assets/39463d54-ce08-4aaa-b0b8-440910487e27" />
+
 
 
 These examples highlight ambiguity in low-resolution images and class similarity.
@@ -101,8 +105,9 @@ These examples highlight ambiguity in low-resolution images and class similarity
 
 ## Real-World Smartphone Image Predictions
 
+<img width="1189" height="755" alt="download" src="https://github.com/user-attachments/assets/bb754012-8ada-4e7f-ba18-b477f1da8c64" />
 
-<img width="1189" height="707" alt="download" src="https://github.com/user-attachments/assets/cf947b9e-6226-4ec8-b9fb-79c07053b12f" />
+
 
 
 **Observations**
