@@ -40,17 +40,17 @@ The CNN is implemented **from scratch** using `torch.nn.Module` and follows an e
 
 ### Architecture Overview
 
-| Layer | Type            | Configuration                              | Output Shape       |
-|-------|-----------------|--------------------------------------------|--------------------|
-| 1     | Convolutional   | 32 filters, 3×3, padding=1, ReLU          | 32 × 32 × 32       |
-| 2     | Max Pooling     | 2×2, stride=2                              | 32 × 16 × 16       |
-| 3     | Convolutional   | 64 filters, 3×3, padding=1, ReLU          | 64 × 16 × 16       |
-| 4     | Max Pooling     | 2×2, stride=2                              | 64 × 8 × 8         |
-| 5     | Convolutional   | 128 filters, 3×3, padding=1, ReLU         | 128 × 8 × 8        |
-| 6     | Max Pooling     | 2×2, stride=2                              | 128 × 4 × 4        |
-| 7     | Flatten         | 128 × 4 × 4 = 2048 units                  | 2048               |
-| 8     | Fully Connected | 2048 → 256, ReLU, Dropout (p=0.3)         | 256                |
-| 9     | Output          | 256 → 10, softmax at inference             | 10                 |
+| Layer | Type            | Configuration                             | Output Shape  |
+|:-----:|-----------------|-------------------------------------------|:-------------:|
+| 1     | Convolutional   | 32 filters, 3×3, padding=1, ReLU         | 32 × 32 × 32  |
+| 2     | Max Pooling     | 2×2, stride=2                             | 32 × 16 × 16  |
+| 3     | Convolutional   | 64 filters, 3×3, padding=1, ReLU         | 64 × 16 × 16  |
+| 4     | Max Pooling     | 2×2, stride=2                             | 64 × 8 × 8    |
+| 5     | Convolutional   | 128 filters, 3×3, padding=1, ReLU        | 128 × 8 × 8   |
+| 6     | Max Pooling     | 2×2, stride=2                             | 128 × 4 × 4   |
+| 7     | Flatten         | 128 × 4 × 4 = 2048 units                 | 2048          |
+| 8     | Fully Connected | 2048 → 256, ReLU, Dropout (p=0.3)        | 256           |
+| 9     | Output          | 256 → 10, softmax at inference            | 10            |
 
 
 <img width="1495" height="606" alt="cnn architecture" src="https://github.com/user-attachments/assets/fbf244a3-6175-4b76-a7b9-7b7aaa4ea38d" />
