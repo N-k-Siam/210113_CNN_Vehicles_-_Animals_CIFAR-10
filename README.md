@@ -52,6 +52,10 @@ The CNN is implemented **from scratch** using `torch.nn.Module` and follows an e
 | 8     | Fully Connected | 2048 → 256, ReLU, Dropout (p=0.3)         | 256                |
 | 9     | Output          | 256 → 10, softmax at inference             | 10                 |
 
+
+<img width="1495" height="606" alt="cnn architecture" src="https://github.com/user-attachments/assets/fbf244a3-6175-4b76-a7b9-7b7aaa4ea38d" />
+
+
 ### Key Components
 - **Feature Extractor:** 3 convolutional blocks (Conv → ReLU → MaxPool)
 - **Classifier Head:** Fully connected layer with dropout regularization
